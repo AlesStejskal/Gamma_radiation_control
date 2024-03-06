@@ -22,7 +22,7 @@ import matplotlib.pyplot as plt
 
 
 ### Simulation parameteres ###
-minus_t = 0.5              # [us] lower limit of the time integration over t0
+minus_t = 0.5              # [us] lower limit of the time integration over t0 - do not change if necessary
 time_range = 2.000       # [us] simulation time range - upper integration limit
 num_of_points = 1000     # [-] number of points in time domain
 
