@@ -39,7 +39,7 @@ absorption_shift = 0     # [MHz] shift of the absorption function relative to th
 bhyf = 0.0               # [T] hyperfine magnetic field
 
 
-source_broadening = 1.00    # emission line broadening in multiple of natural linewidth
+source_broadening = 1.20    # emission line broadening in multiple of natural linewidth
 absorber_broadening = 1.00  # absorption line broadening in multiple of natural linewidth
 
 ### Fourier series parameteres - amplitudes and phases ###
