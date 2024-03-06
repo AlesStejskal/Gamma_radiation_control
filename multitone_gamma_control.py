@@ -22,21 +22,21 @@ import matplotlib.pyplot as plt
 
 
 ### Simulation parameteres ###
-minus_t = 0.5              # [us] lower limit of the time integration over t0 - do not change if necessary
+minus_t = 0.5            # [us] lower limit of the time integration over t0 - do not change if necessary
 time_range = 2.000       # [us] simulation time range - upper integration limit
 num_of_points = 1000     # [-] number of points in time domain
 
 vibration_freq = 10      # [MHz] fundamental vibration frequency
-E_tuned = 10            # [MHz] Doppler energy modulation
+E_tuned = 10             # [MHz] Doppler energy modulation
 
 p = 2.4                  # [-] vibration amplitude expressed by dimensionless parameter "p"
-harm_num = 1    # [-] number of harmonics in the Fourier series of motion profile
-motion_shift = 0.0  # [us] time shift of absorber motion
+harm_num = 1             # [-] number of harmonics in the Fourier series of motion profile
+motion_shift = 0.0       # [us] time shift of absorber motion
 motion_invertion = "yes" # inversion of motion profile "yes" = inverted, others = original
 
 d_eff = 19.0             # [-] effective thickness
 absorption_shift = 0     # [MHz] shift of the absorption function relative to the source
-bhyf = 0.0                 # [T] hyperfine magnetic field
+bhyf = 0.0               # [T] hyperfine magnetic field
 
 
 source_broadening = 1.00    # emission line broadening in multiple of natural linewidth
