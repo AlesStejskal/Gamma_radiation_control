@@ -29,7 +29,7 @@ num_of_points = 1000     # [-] number of points in time domain
 vibration_freq = 10      # [MHz] fundamental vibration frequency
 E_tuned = 10            # [MHz] Doppler energy modulation
 
-p = 2.4                  # [-] vibration amplitude
+p = 2.4                  # [-] vibration amplitude expressed by dimensionless parameter "p"
 harm_num = 1    # [-] number of harmonics in the Fourier series of motion profile
 motion_shift = 0.0  # [us] time shift of absorber motion
 motion_invertion = "yes" # inversion of motion profile "yes" = inverted, others = original
